@@ -10,7 +10,7 @@ Also read ["Run Cypress with a single Docker command"](https://www.cypress.io/bl
 
 ```shell
 cd e2e
-docker-compose up --exit-code-from cypress
+docker-compose up --exit-code-from --abort-on-container-exit cypress
 ```
 
 ## Run Test Runner
